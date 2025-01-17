@@ -35,7 +35,7 @@
 #       7|    repeated
 #  [4,6,7,7]                                                                             ----> store quadruplets
 
-
+# can try another example of [4,7,6,7]...
 
 # 1. subsets backtracking: store results at internal and leaf nodes
 # 2. repetition: repeated elements.
