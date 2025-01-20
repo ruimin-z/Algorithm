@@ -18,7 +18,6 @@
 - 子集（Subset）
 - 棋盘：N皇后，数独等
 
-
 ## 如何理解
 回溯可以抽象成树形结构，便于理解。
 
@@ -29,6 +28,7 @@
 ## 模板
 - 一般递归函数没有返回值。
 - 除了子集问题是在每一个node节点收集结果外，其他问题在leaf节点收集结果。
+- 
 
 ```python3
 def backtracking(path，choice_list, params..):
@@ -54,3 +54,31 @@ def backtracking(path，choice_list, params..):
      - check if the solution can be reverted without add and pop. For example, `ls + [substr]` as param can be reverted to `ls` in recursion.
 3. 写出单层搜索的逻辑 identify the choices at each level
 
+### 组合
+prune
+
+### 分割
+
+
+### 子集
+去重
+
+### 排列
+去重
+
+
+### 去重
+1. start index  
+- 没有[1,2]后再出现[2,1]
+- 适合组合
+
+2. used array / set()
+- 适合排列
+- 知道哪些元素取/未取过
+
+
+
+
+
+### `continue` or `break`
+continue if can still take values in the same branch
