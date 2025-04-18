@@ -1,9 +1,5 @@
 # Algorithm
 
-Leetcode Practices Following [代码随想录](https://programmercarl.com/)
-
-![LeetcodeAlgorithm](images/algo.png)
-
 
 
 | Day  | 章节                | Part    | 题目数量                                                                                                                                                                                                        |
@@ -17,3 +13,10 @@ Leetcode Practices Following [代码随想录](https://programmercarl.com/)
 | Day 7 | 第三章 Hash 哈希表      | part2   | [454.4SumII](3.Hash/454.4SumII.md), [383.RansomNote](3.Hash/383.RansomNote.md), [15.3SumInHash](3.Hash/15.3Sum.md), [15.3SumInTwoPointers](5.TwoPointers/15.3Sum.md), [18.4Sum](5.TwoPointers/18.4Sum.md), summary  |
 | Day 8 | 第四章 String 字符串    | part1 | 4 道题目                                                                                                                                                                                                       |
 | Day 9 | 第四章 String 字符串    | part2 | 4 道题目                                                                                                                                                                                                       |
+
+
+
+Leetcode Practices Following [代码随想录](https://programmercarl.com/)
+
+![LeetcodeAlgorithm](images/algo.png)
+
